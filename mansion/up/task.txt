@@ -1,11 +1,19 @@
 Objectives
-- 
+- Learn to list files and directories using "ls" command
+- Learn what ".", ".." are
 
 Task
--
+- Learn to list content of a directory
+- Run "ls .". What do you see? What about "ls" only? 
+- Run "ls ..". What do you see then?
+- What happens if you give a directory name as a parameter "ls <some-directory>"
+- Find a flag which shows more information about file than the names. HINT: hidden files starts with a dot ".hidden-file"
+- Find a flag which shows file sizes in human readable form
 
-Answer
-- 
+Question
+- What is the human readable size of a one hidden file within one of the directories you have access to? HINT: 3 characters
 
 Hints and tips
--
+- Start by reading "man ls" 
+- Open shorter instructions of a command using "-h" flag e.g. "ls -h". NOTE: doesn't work on every command.
+- With "ls" you can list short information as well as sizes and sort files and directories
