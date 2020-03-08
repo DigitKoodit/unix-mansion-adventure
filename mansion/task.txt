@@ -1,0 +1,19 @@
+Objectives
+- Learn to create new users
+- List groups of user
+
+Task
+- Create a new user called "hero" using "adduser" command
+- Set hero's password to 'hero'. In real world always use a proper passwords!
+- Login as new "hero" user using "su - hero"
+ 
+Answer
+- what is the output after running a command "groups hero"
+
+Hints and tips
+- Read about "adduser" and "groupadd" commands
+- You can switch users with "su" command
+- Get groups of active user by running "groups" and other user's by running "groups <username>"
+- https://www.computerhope.com/unix/adduser.htm
+- https://www.computerhope.com/unix/groupadd.htm
+- https://www.tutorialspoint.com/unix/unix-file-permission.htm
