@@ -15,7 +15,7 @@ mkdir up left right
 
 echo "$ROOM" > room.txt
 
-cat <<EOF > task.txt
+cat <<'EOF' > task.txt
 Objectives
 - 
 
@@ -30,7 +30,7 @@ Hints and tips
 
 EOF
 
-cat <<EOF > unlock.sh
+cat <<'EOF' > unlock.sh
 #!/bin/bash
 
 ANSWER="$(echo $1 | md5sum)"
