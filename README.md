@@ -32,16 +32,9 @@ Possible rooms where to enter after correct answer.
 
 Room might contain sub directories and files.
 
-
 ## How to play?
 
-**NOTE**: You will learn more and more as you progress. Don't stress if everything isn't clear when you start. There will be questions.
-
-***HINT**: Use `cd <directory>` command to enter new directory e.g. `cd mansion`* 
-
-***HINT**: Run scripts on command line by adding a dot and dash `./` in front of the `.sh` file. See the first step.*
-
-***HINT**: Find instructions for any unix command by adding `man` in front of the command e.g. `man cd`
+**NOTE**: You will learn more and more as you progress. Don't stress if everything isn't clear when you start. There will be questions. Be sure to read tips from below. 
 
 1. Start the story by executing `start-the-adventure` script:\
 `./start-the-adventure.sh`
@@ -51,6 +44,17 @@ Room might contain sub directories and files.
 2. Hero's oldest and trusted friend `cat` will help along the adventure. Running `cat <filename>` will output the content of the file. Use this to read `task.txt` and find a solution for the `question`
 3. Enter your answer to `unlock.sh` script on command line with double quotes: `./unlock.sh "my answer"`. NOTE: Run the command using your systems default user instead of `hero`. 
 4. Find next room with a task.
+
+
+## Hints and tips
+
+Use `cd <directory>` command to enter new directory e.g. `cd mansion`
+
+Tabulator `"tab"`-key lists available files and directories slightly depending on a command being excecuted. When combined with `cd` terminal will propose all directories where you can enter.
+
+Run scripts on a command line by adding a dot and dash `./` in front of the `.sh` file. See the first step. 
+
+Find instructions for any unix command by adding `man` in front of the command e.g. `man cd`
 
 
 ## About the project
