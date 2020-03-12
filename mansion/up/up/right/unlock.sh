@@ -1,9 +1,23 @@
 #!/bin/bash
 
-ANSWER="$(echo $1 | md5sum)"
-CORRECT_ANSWER=
+S1='nurmi/paavo'
+S2='michelangelo/david'
+S3='galaxy/venus'
 
-if [[ $ANSWER = $CORRECT_ANSWER ]]; then
+C=0
+if [ -f $S1 ]; then
+  C=$(($C + 1))
+fi
+if [ -f $S2 ]; then
+  C=$(($C + 1))
+fi
+if [ -f $S3 ]; then
+  C=$(($C + 1))
+fi 
+
+if [ $C = 2 ]; then
+  echo "Almost there. You can do it!"
+elif [ $C = 3 ]; then
   echo "Correct answer! 
 You unlocked the next door."
   sudo chgrp hero *

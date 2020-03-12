@@ -1,12 +1,17 @@
 Objectives
-- 
+- Learn to move things around with "mv"
+- "mv" can be used to rename files and directories
+- Learn to distinguish files and directories from each other
 
 Task
--
+- Move all three statues onto matching pressure sensors (directories)
+- Each sensor has space only for one statue
 
 Question
 - 
 
 Hints and tips
--
+- Check the documentation: `man mv`
+- Basic syntax of "mv" is "mv target destination" where both target and destination can be a directory or a file
+- Same applies for renaming directory/file: "mv oldname.txt newname.txt"
 
