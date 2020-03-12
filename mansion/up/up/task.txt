@@ -13,6 +13,7 @@ Task
   - Move up to three made up directories "cd dir1/dir2/dir3" 
   - Move down to three directories "cd ../../.."
   - PROTIP: Always check whether directories exists by doubple tapping "tab"
+- To go forward you must find the "key.txt" file within the "maze" directory
 
 Advanced task
 - Run "cd". Note no extra params. Where you are now?
@@ -21,7 +22,8 @@ Advanced task
 - Adding dash "-" after the command brings you bach to the last directory. Try it "cd -"
 
 Question
-- Give a single command which could move you to the directory containing the "key.txt" file starting with "./maze"
+- What is the whole path from this directory to the "key.txt"? 
+- Give a single command which could move you to the directory file starting with "./maze"
 - Answer format: "cd ./maze/..."
 
 Hints and tips
