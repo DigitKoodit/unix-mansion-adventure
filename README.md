@@ -36,7 +36,7 @@ Room might contain sub directories and files.
 
 **NOTE**: You will learn more and more as you progress. Don't stress if everything isn't clear when you start. There will be questions. Be sure to read tips from below. 
 
-0. Download aka "clone" the repository to your computer somewhere under your `home` directory.\
+0. Download i.e. "clone" the repository to your computer somewhere under your `home` directory.\
 `git clone git@github.com:DigitKoodit/unix-mansion-adventure.git`
 
 > NOTE: if cloning doesn't work you might need to configure secure shell connection (SSH) to Github: [How to configure SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
