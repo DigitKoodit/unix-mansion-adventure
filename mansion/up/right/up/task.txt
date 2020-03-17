@@ -1,0 +1,13 @@
+Objectives
+- Now you know how to move things but how about renaming them?
+
+Task
+- Find a way to light your passage by renaming the "stick" to "torch"
+
+Question
+- Perform the task and execute "./unlock.sh"
+
+Hints and tips
+- Check the documentation: `man mv`
+- Basic syntax of "mv" is "mv target destination" where both target and destination can be a directory or a file
+- Same applies for renaming directory/file: "mv oldname.txt newname.txt"

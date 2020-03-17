@@ -13,5 +13,3 @@ Question
 Hints and tips
 - Check the documentation: `man mv`
 - Basic syntax of "mv" is "mv target destination" where both target and destination can be a directory or a file
-- Same applies for renaming directory/file: "mv oldname.txt newname.txt"
-
