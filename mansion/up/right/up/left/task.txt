@@ -1,12 +1,15 @@
 Objectives
-- 
+- Learn to copy files with "cp"
 
 Task
--
+- Create four more pegs which could open the hidden door so total of five pegs in this directory.
+- Name the copies "peg2", "peg3" and so on.
 
 Question
-- 
+- Perform the task.
 
 Hints and tips
--
+- Read the "man cp"
+- With cp you can copy files and directories. For directories you need to use -r flag for recursive copy
+- The syntax is "cp original-file new-file"
 
