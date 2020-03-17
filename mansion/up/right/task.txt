@@ -8,7 +8,7 @@ Task
 - Each sensor has space only for one statue
 
 Question
-- 
+- No answer this time. Move things around and run "./unlock.sh".
 
 Hints and tips
 - Check the documentation: `man mv`

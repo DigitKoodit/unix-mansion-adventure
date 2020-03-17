@@ -31,8 +31,8 @@ So the story begins...
 
 read ok
 
-echo "You will become the hero who solved the mysteries of the Unix mansion!
-Along the journey You will encounter many challenges which will teach you the basics of the Unix ecosystem.
+echo "You will become the hero who solved the mystery of the Unix mansion!
+Along the journey You will encounter many challenges which will teach you the basics of the Unix environment.
 
 Start by entering the mansion by entering \"cd mansion\" on the command line.
 

@@ -41,14 +41,11 @@ Room might contain sub directories and files.
 
 > NOTE: if cloning doesn't work you might need to configure secure shell connection (SSH) to Github: [How to configure SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-1. Start the story by executing `start-the-adventure` script:\
-`./start-the-adventure.sh`
-
-    Optional **villain mode**: the start script will ask whether you want to activate **villain mode** which will create a group called `villain` and lock the `mansion` (directory) using unix permission system.'
-
-2. Hero's oldest and trusted friend `cat` will help along the adventure. Running `cat <filename>` will output the content of the file. Use this to read `task.txt` and find a solution for the `question`
-3. Enter your answer to `unlock.sh` script on command line with double quotes: `./unlock.sh "my answer"`. NOTE: Run the command using your systems default user instead of `hero`. 
-4. Find next room with a task.
+1. Hero's oldest and trusted friend `cat` will help along the adventure. Running `cat <filename>` will output the content of the file. 
+2. Each directory will contain litle information about the current location and task at hand in a file `room.txt`. 
+3. The file `task.txt` contains a `question` which you need to answer before proceeding to the next level
+4. Enter your answer to `unlock.sh` script on command line with double quotes: `./unlock.sh "my answer"`. NOTE: Run the command using your systems default user instead of `hero`. 
+5. Find next room with a task.
 
 
 ## Hints and tips
