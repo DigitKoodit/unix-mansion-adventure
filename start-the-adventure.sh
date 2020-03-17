@@ -1,51 +1,12 @@
 #!/bin/bash
 
-VILLAIN_GROUP=villain
+echo "Welcome to the Unix Mansion! 
 
-if grep -q $VILLAIN_GROUP /etc/group; then
-  echo "Evil villains have already taken over the mansion.
+The Unix mansion project is built for educational purposes and all code is open source. 
 
-The story continues...
-"
-  exit 0
-fi
-
-echo "Disclaimer: The Unix mansion project is built educational purposes and all code is open source. To get started this script will require sudo permissions but only for creating one user a group \"villain\".
-
-Run ./cleanup.sh script at any time which will remove extra users and groups created during this adventure.
-
-Cancel this tutorial at any time by pressing \"ctrl + c\"
-
-> Continue by pressing enter
-"
-
-read ok
-echo "Do you want an extra challenge? Create a villain group which locks directories and files inside \"./mansion\" for more engaging experience? 
-
-> \"y\" for yes and \"n\" for no"
-
-read approvement
-if [[ $approvement == "y" ]]; then
-  echo "Cool let's create a user group called \"villain\" and restrict mansion dir permissions. Password is required but it won't get stored anywhere."
-
-  sudo groupadd $VILLAIN_GROUP
-  # Add current user into villain group in order to open locked files
-  sudo usermod -aG $VILLAIN_GROUP $USER
-  # Change directories and files under villain control within mansion dir
-  sudo chgrp -R $VILLAIN_GROUP mansion/*
-  # Give everyone read and execute permission to files
-  find ./mansion -type f -exec chmod 775 {} +
-  # Lock directories from other than villains
-  find ./mansion -type d -exec chmod 770 {} +
-  chmod 775 mansion
-
-  echo "Continue by pressing enter"
-else 
-  echo "You chose to continue as yourself. All directories and files are open for you from the start.
-
+Are you ready to continue?
+You can stop the execution by \"ctrl + c\"
 > Continue by pressing enter"
-fi
-
 
 read ok
 

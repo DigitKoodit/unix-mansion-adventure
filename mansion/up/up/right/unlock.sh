@@ -20,7 +20,6 @@ if [ $C = 2 ]; then
 elif [ $C = 3 ]; then
   echo "Correct answer! 
 You unlocked the next door."
-  sudo chgrp hero *
 else
   echo "Answer is not correct. Please try again."
 fi

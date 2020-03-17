@@ -1,7 +1,7 @@
 #!/bin/bash
 
 UNLOCK_FILE_PATH=$1
-CORRECT_ANSWER="$(echo $2 | md5sum)"
+CORRECT_ANSWER="$(echo $2 | cksum)"
 
 if [[ -e $1 ]]; then
   sed -i "/CORRECT_ANSWER=/c\CORRECT_ANSWER=\"$CORRECT_ANSWER\"" $UNLOCK_FILE_PATH 
