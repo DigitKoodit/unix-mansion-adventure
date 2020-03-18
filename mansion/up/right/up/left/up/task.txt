@@ -7,6 +7,7 @@ Objectives
 Task
 - Warmup: Go back one folder and list only items which starts with work "peg". How would you do that?
 - Use your wildcards to find all keys from "treasures/"
+- Key-files have k, e and y in a row where letters can are randomly either small or capital e.g. keY, Key, key are all valid.
 
 Question
 - How many treasures have the word key in them? Give a single number as a parameter to unlock.sh to proceed.

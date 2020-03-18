@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ANSWER="$(echo $1 | cksum)"
-CORRECT_ANSWER=53
+CORRECT_ANSWER="946544402 3"
 
 if [[ $ANSWER = $CORRECT_ANSWER ]]; then
   echo "Correct answer! 
