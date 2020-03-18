@@ -1,0 +1,21 @@
+Objectives
+- Learn to remove files using powerful "rm"
+
+Task
+- Get rid of the villains hiding in each room and bring all the villagers back to safety!
+- First remove all items that starts with "villain" from all directories
+- Secondly free all "villagers" from their cells by moving them to this (./) folder
+
+
+Question
+- When completed run the ./unlock.sh
+
+Hints and tips
+- Read "man rm" 
+- The command "rm" remove is powerful tool but it is rather easy to do harm so always be careful when using it!
+- To remove a single file use "rm item" but you can also combine it with wildcards which you have just learned
+  - e.g. rm item* will remove all files starting with "item"
+-To remove a directory pass a -r flag for recursive
+  - e.g. rm -r folder_of_items/
+  - NOTE: This will remove the whole directory including items inside.
+
