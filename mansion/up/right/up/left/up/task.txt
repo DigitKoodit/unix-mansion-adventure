@@ -1,12 +1,19 @@
 Objectives
-- 
+- Learn about wildcards which helps you to match multiple similar files easily
+- An asterisk (*) – matches one or more occurrences of any character, including no character.
+- Question mark (?) – represents or matches a single occurrence of any character.
+- Bracketed characters ([ ]) – matches any occurrence of character enclosed in the square brackets. It is possible to use different types of characters (alphanumeric characters): numbers, letters, other special characters etc.
 
 Task
--
+- Warmup: Go back one folder and list only items which starts with work "peg". How would you do that?
+- Use your wildcards to find all keys from "treasures/"
 
 Question
-- 
+- How many treasures have the word key in them? Give a single number as a parameter to unlock.sh to proceed.
 
 Hints and tips
--
-
+- Practical examples of using wildcards https://www.tecmint.com/use-wildcards-to-match-filenames-in-linux/
+- Almost all basic commands that you have learned supports wildcards.
+  - "ls *" will list every item on a dir (same as running only ls)
+  - "mv stuff_* box/" will move all items, files and directories, that starts with "stuff_" e.g. stuff_1, stuff_more_stuff etc.
+  - "cp photo_[1-2][0-9][0-9][0-9] archive/" will copy all photos from photo_1000 to photo_2999 archive folder.

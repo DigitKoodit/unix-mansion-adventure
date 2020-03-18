@@ -6,7 +6,7 @@ Task
 - Name the copies "peg2", "peg3" and so on.
 
 Question
-- Perform the task.
+- Perform the task and check run the unlock.
 
 Hints and tips
 - Read the "man cp"

@@ -13,3 +13,4 @@ Question
 Hints and tips
 - Check the documentation: `man mv`
 - Basic syntax of "mv" is "mv target destination" where both target and destination can be a directory or a file
+- Note that not every file has to have an extension like ".txt". Can you tell which items are files and which are directories?

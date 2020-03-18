@@ -20,4 +20,3 @@ You unlocked the next door."
 else
   echo "Answer is not correct. Please try again."
 fi
-
