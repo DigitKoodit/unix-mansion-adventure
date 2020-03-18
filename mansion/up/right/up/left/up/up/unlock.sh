@@ -6,8 +6,8 @@ If this happens run \"git checkout .\" to start over."
   exit 1
 fi
 
-S1="$(ls villager* | wc -l)"
-S2="$(ls cell*/villain* | wc -l)"
+S1="$(ls villager* | wc -l | awk '{$1=$1};1')"
+S2="$(ls cell*/villain* | wc -l | awk '{$1=$1};1')"
 
 if [[ $S2 > 0 ]]; then
   echo "Quicky beat villains before they attack!"
